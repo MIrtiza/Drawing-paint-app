@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  column-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  width: 300px;
+  margin: 40px auto;
+}
